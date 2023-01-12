@@ -1,0 +1,18 @@
+{
+  "environment": "prod",
+  "projectName": "tickertape-ui-jv-bdd",
+  "gemjarSubID": "test_id",
+  "gemjarUserName": "pdeep",
+  "gemjarToken": "76f1021f-0ce5-45b6-af17-df2c36d9b11c1669200156981",
+  "glueCode":"com.qa.TickerTape.StepDefination",
+  "dev": {
+    "browserName": "firefox",
+    "launchUrl": "https://www.tickertape.in/",
+    "browserTimeout": 100
+  },
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://www.tickertape.in/",
+    "browserTimeout": 100
+  }
+}
