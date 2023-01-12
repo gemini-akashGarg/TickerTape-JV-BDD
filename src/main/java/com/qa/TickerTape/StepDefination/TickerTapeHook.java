@@ -25,6 +25,6 @@ public class TickerTapeHook {
         DriverAction.setImplicitTimeOut(Long.parseLong(GemJarGlobalVar.implicitTime));
         DriverAction.setPageLoadTimeOut(Long.parseLong(GemJarGlobalVar.pageTimeout));
         DriverAction.setScriptTimeOut(Long.parseLong(GemJarGlobalVar.scriptTimeout));
-        GemJarGlobalVar.reportLocation="/tmp/";
+        GemJarGlobalVar.reportLocation=System.getProperty("java.io.tmpdir");
     }
 }
