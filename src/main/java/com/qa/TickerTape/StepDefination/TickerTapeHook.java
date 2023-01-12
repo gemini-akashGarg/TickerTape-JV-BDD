@@ -28,12 +28,12 @@ public class TickerTapeHook {
         DriverAction.setPageLoadTimeOut(Long.parseLong(GemJarGlobalVar.pageTimeout));
         DriverAction.setScriptTimeOut(Long.parseLong(GemJarGlobalVar.scriptTimeout));
     }
-    @AfterAll
-    public static void after_all() {
-        try {
-            GemTestReporter.endSuite(System.getProperty("java.io.tmpdir"));
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-    }
+//    @AfterAll
+//    public static void after_all() {
+//        try {
+//            GemTestReporter.endSuite(System.getProperty("java.io.tmpdir"));
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
+//    }
 }

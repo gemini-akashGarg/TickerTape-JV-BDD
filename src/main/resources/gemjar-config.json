@@ -5,6 +5,7 @@
   "gemjarUserName": "pdeep",
   "gemjarToken": "76f1021f-0ce5-45b6-af17-df2c36d9b11c1669200156981",
   "glueCode":"com.qa.TickerTape.StepDefination",
+  "reportLocation":"/tmp",
   "dev": {
     "browserName": "firefox",
     "launchUrl": "https://www.tickertape.in/",
